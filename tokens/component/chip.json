@@ -489,7 +489,7 @@
         },
         "blur": {
           "default": {
-            "value": "4rem",
+            "value": "0rem",
             "type": "dimension"
           }
         }
