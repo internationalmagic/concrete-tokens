@@ -345,29 +345,29 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.24",
+              "value": "0.12",
               "type": "other"
             },
             "hover": {
-              "value": "0.32",
+              "value": "0.2",
               "type": "other"
             },
             "active": {
-              "value": "0.4",
+              "value": "0.28",
               "type": "other"
             }
           },
           "border": {
             "default": {
-              "value": "0.32",
+              "value": "0.2",
               "type": "other"
             },
             "hover": {
-              "value": "0.4",
+              "value": "0.28",
               "type": "other"
             },
             "active": {
-              "value": "0.48",
+              "value": "0.36",
               "type": "other"
             }
           }
@@ -715,15 +715,15 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.24",
+              "value": "0.12",
               "type": "other"
             },
             "hover": {
-              "value": "0.32",
+              "value": "0.2",
               "type": "other"
             },
             "active": {
-              "value": "0.4",
+              "value": "0.28",
               "type": "other"
             },
             "light": {
@@ -733,15 +733,15 @@
           },
           "border": {
             "default": {
-              "value": "0.32",
+              "value": "0.2",
               "type": "other"
             },
             "hover": {
-              "value": "0.4",
+              "value": "0.28",
               "type": "other"
             },
             "active": {
-              "value": "0.48",
+              "value": "0.36",
               "type": "other"
             }
           }

@@ -254,7 +254,7 @@
             },
             "onTranslucent": {
               "type": "color",
-              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 80%)"
+              "value": "hsl({config.color.accent.hue.default}, {config.color.accent.saturation.default}, 60%)"
             }
           }
         },
