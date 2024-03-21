@@ -345,15 +345,15 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.12",
+              "value": "0.06",
               "type": "other"
             },
             "hover": {
-              "value": "0.2",
+              "value": "0.12",
               "type": "other"
             },
             "active": {
-              "value": "0.28",
+              "value": "0.18",
               "type": "other"
             }
           },
@@ -715,15 +715,15 @@
         "alpha": {
           "bg": {
             "default": {
-              "value": "0.12",
+              "value": "0.06",
               "type": "other"
             },
             "hover": {
-              "value": "0.2",
+              "value": "0.12",
               "type": "other"
             },
             "active": {
-              "value": "0.28",
+              "value": "0.18",
               "type": "other"
             },
             "light": {
