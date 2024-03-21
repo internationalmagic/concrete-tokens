@@ -437,12 +437,12 @@
           },
           "radius": {
             "default": {
-              "value": "0.5rem",
+              "value": "0rem",
               "type": "other",
               "description": "For a circle match height"
             },
             "step": {
-              "value": "0.125rem",
+              "value": "0rem",
               "type": "other"
             }
           },
