@@ -1281,19 +1281,19 @@
           },
           "inline": {
             "xs": {
-              "value": "{app.dimension.control.radius.xs} - 0.25rem",
+              "value": "{app.dimension.control.radius.xs}",
               "type": "dimension"
             },
             "sm": {
-              "value": "{app.dimension.control.radius.sm} - 0.25rem",
+              "value": "{app.dimension.control.radius.sm}",
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.control.radius.md} - 0.25rem",
+              "value": "{app.dimension.control.radius.md}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{app.dimension.control.radius.lg} - 0.25rem",
+              "value": "{app.dimension.control.radius.lg}",
               "type": "dimension"
             }
           }

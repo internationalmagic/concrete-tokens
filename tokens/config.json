@@ -2,27 +2,27 @@
   "config": {
     "fontFamily": {
       "primary": {
-        "value": "Wand UI Pro",
+        "value": "Interface",
         "type": "fontFamilies"
       },
       "secondary": {
-        "value": "Margiela Mono",
+        "value": "Index",
         "type": "fontFamilies"
       },
       "tertiary": {
-        "value": "Wand UI Pro",
+        "value": "Interface",
         "type": "fontFamilies"
       },
       "ui": {
-        "value": "Wand UI Pro",
+        "value": "Interface",
         "type": "fontFamilies"
       },
       "uiAlt": {
-        "value": "Margiela Mono",
+        "value": "Index",
         "type": "fontFamilies"
       },
       "code": {
-        "value": "Margiela Mono",
+        "value": "Index",
         "type": "fontFamilies"
       },
       "symbol": {
@@ -187,7 +187,7 @@
           "type": "dimension"
         },
         "radius": {
-          "value": "1rem",
+          "value": "0rem",
           "type": "dimension"
         },
         "gap": {
@@ -314,7 +314,7 @@
       "accent": {
         "hue": {
           "default": {
-            "value": "215",
+            "value": "8",
             "type": "other"
           }
         },
