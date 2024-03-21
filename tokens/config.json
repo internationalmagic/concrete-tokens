@@ -203,7 +203,7 @@
           "type": "dimension"
         },
         "border": {
-          "value": "1px",
+          "value": "2px",
           "type": "dimension"
         }
       },
@@ -229,7 +229,7 @@
           "type": "dimension"
         },
         "border": {
-          "value": "1px",
+          "value": "2px",
           "type": "dimension"
         }
       }
