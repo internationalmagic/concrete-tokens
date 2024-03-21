@@ -684,7 +684,7 @@
       "danger": {
         "hue": {
           "default": {
-            "value": "10",
+            "value": "350",
             "type": "other"
           }
         },
