@@ -1,23 +1,22 @@
 {
   "tokenSetOrder": [
-    "config",
     "application",
-    "component/button",
-    "component/chip",
-    "component/input",
-    "component/checkbox",
-    "component/radio",
-    "component/badge",
-    "component/slider",
-    "component/toggle",
     "component/avatar",
     "component/avatarGroup",
+    "component/badge",
+    "component/button",
+    "component/checkbox",
+    "component/radio",
+    "component/toggle",
+    "component/chip",
+    "component/input",
+    "component/menuBox",
+    "component/menuCard",
+    "component/menuItem",
     "component/select",
-    "component/message",
+    "component/slider",
     "component/status",
-    "component/type",
-    "theme/dark",
-    "theme/mobile",
-    "theme/expressive"
+    "component/message",
+    "theme/dark"
   ]
 }
