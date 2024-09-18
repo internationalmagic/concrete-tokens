@@ -1,0 +1,100 @@
+{
+  "component": {
+    "menuBox": {
+      "dimension": {
+        "padding": {
+          "x": {
+            "value": "0.5rem",
+            "type": "dimension"
+          },
+          "y": {
+            "value": "0.5rem",
+            "type": "dimension"
+          }
+        },
+        "gap": {
+          "default": {
+            "value": "0rem",
+            "type": "dimension"
+          }
+        },
+        "blur": {
+          "default": {
+            "value": "4rem",
+            "type": "dimension"
+          }
+        },
+        "radius": {
+          "xs": {
+            "value": "{app.dimension.control.radius.xs} + {component.menuBox.dimension.padding.x}",
+            "type": "dimension"
+          },
+          "sm": {
+            "value": "{app.dimension.control.radius.sm} + {component.menuBox.dimension.padding.x}",
+            "type": "dimension"
+          },
+          "md": {
+            "value": "{app.dimension.control.radius.md} + {component.menuBox.dimension.padding.x}",
+            "type": "dimension"
+          },
+          "lg": {
+            "value": "{app.dimension.control.radius.lg} + {component.menuBox.dimension.padding.x}",
+            "type": "dimension"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "0px",
+            "type": "dimension"
+          }
+        }
+      },
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{app.color.surface.elevation.higher.bg.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.6",
+                  "space": "hsl"
+                }
+              }
+            }
+          },
+          "base": {
+            "value": "{app.color.surface.elevation.base.bg.default}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.6",
+                  "space": "hsl"
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "value": "transparent",
+            "type": "color"
+          }
+        }
+      },
+      "boxShadow": {
+        "default": {
+          "value": "{app.boxShadow.component.high}",
+          "type": "boxShadow"
+        },
+        "higher": {
+          "value": "{app.boxShadow.component.higher}",
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
+}

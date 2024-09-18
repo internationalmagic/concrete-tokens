@@ -8,16 +8,25 @@
               "border": {
                 "default": {
                   "value": "{app.color.component.primary.border.translucent}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "studio.tokens": {
+                      "modify": {
+                        "type": "alpha",
+                        "value": "{app.config.color.primary.alpha.border.amp}",
+                        "space": "hsl"
+                      }
+                    }
+                  }
                 },
                 "active": {
-                  "value": "{app.color.component.accent.bg.solid}",
+                  "value": "{app.color.component.info.bg.solid}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{config.color.accent.darken.active}",
+                        "value": "{app.config.color.info.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -36,7 +45,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.2",
+                        "value": "0.01",
                         "space": "hsl"
                       }
                     }
@@ -49,7 +58,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.4",
+                        "value": "0.01",
                         "space": "hsl"
                       }
                     }
@@ -90,13 +99,13 @@
                   "type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.accent.bg.solid}",
+                  "value": "{app.color.component.info.bg.solid}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{config.color.accent.darken.active}",
+                        "value": "{app.config.color.info.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -115,7 +124,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.2",
+                        "value": "0.01",
                         "space": "hsl"
                       }
                     }
@@ -128,7 +137,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "alpha",
-                        "value": "0.4",
+                        "value": "0.01",
                         "space": "hsl"
                       }
                     }
@@ -161,17 +170,17 @@
               },
               "bg": {
                 "default": {
-                  "value": "{app.color.component.accent.bg.solid}",
+                  "value": "{app.color.component.info.bg.solid}",
                   "type": "color"
                 },
                 "active": {
-                  "value": "{app.color.component.accent.bg.solid}",
+                  "value": "{app.color.component.info.bg.solid}",
                   "type": "color",
                   "$extensions": {
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{config.color.accent.darken.active}",
+                        "value": "{app.config.color.info.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -180,7 +189,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.accent.fg.onSolid}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color"
                 }
               }
@@ -188,13 +197,13 @@
             "disabled": {
               "bg": {
                 "default": {
-                  "value": "{app.color.component.disabled.bg.solid}",
+                  "value": "{app.color.component.disabled.bg.checked}",
                   "type": "color"
                 }
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.disabled.fg.solid}",
+                  "value": "{app.color.component.disabled.fg.onTranslucent}",
                   "type": "color"
                 }
               },
@@ -232,7 +241,7 @@
                     "studio.tokens": {
                       "modify": {
                         "type": "darken",
-                        "value": "{config.color.danger.darken.active}",
+                        "value": "{app.config.color.danger.darken.active}",
                         "space": "hsl"
                       }
                     }
@@ -241,7 +250,7 @@
               },
               "fg": {
                 "default": {
-                  "value": "{app.color.component.accent.fg.onSolid}",
+                  "value": "{app.color.component.fixed.fg}",
                   "type": "color"
                 }
               }
@@ -270,6 +279,20 @@
         }
       },
       "fontSize": {
+        "label": {
+          "sm": {
+            "value": "{component.checkbox.fontSize.label.md} - {component.checkbox.config.label.step}",
+            "type": "fontSizes"
+          },
+          "md": {
+            "value": "{component.checkbox.fontSize.label.lg} - {component.checkbox.config.label.step}",
+            "type": "fontSizes"
+          },
+          "lg": {
+            "value": "{component.checkbox.config.label.default}",
+            "type": "fontSizes"
+          }
+        },
         "symbol": {
           "sm": {
             "value": "{component.checkbox.dimension.input.symbol.size.sm}",
@@ -283,19 +306,59 @@
             "value": "{component.checkbox.dimension.input.symbol.size.lg}",
             "type": "fontSizes"
           }
-        },
+        }
+      },
+      "fontFamily": {
         "label": {
+          "value": "{app.fontFamily.control.text}",
+          "type": "fontFamilies"
+        },
+        "symbol": {
+          "value": "{app.fontFamily.control.symbol}",
+          "type": "fontFamilies"
+        }
+      },
+      "fontWeight": {
+        "label": {
+          "default": {
+            "value": "{app.fontWeight.control.text.default}",
+            "type": "fontWeights"
+          }
+        },
+        "symbol": {
           "sm": {
-            "value": "{component.checkbox.fontSize.label.md} - {component.checkbox.config.label.step}",
-            "type": "fontSizes"
+            "value": "{app.config.fontWeight.black}",
+            "type": "fontWeights"
           },
           "md": {
-            "value": "{component.checkbox.fontSize.label.lg} - {component.checkbox.config.label.step}",
-            "type": "fontSizes"
+            "value": "{app.config.fontWeight.bold}",
+            "type": "fontWeights"
           },
           "lg": {
-            "value": "{component.checkbox.config.label.default}",
-            "type": "fontSizes"
+            "value": "{app.config.fontWeight.medium}",
+            "type": "fontWeights"
+          }
+        }
+      },
+      "lineHeight": {
+        "label": {
+          "sm": {
+            "value": "{component.checkbox.fontSize.label.sm} * 1.4",
+            "type": "lineHeights"
+          },
+          "md": {
+            "value": "{component.checkbox.fontSize.label.md} * 1.4",
+            "type": "lineHeights"
+          },
+          "lg": {
+            "value": "{component.checkbox.fontSize.label.lg} * 1.4",
+            "type": "lineHeights"
+          }
+        },
+        "symbol": {
+          "default": {
+            "value": "{app.lineHeight.none}",
+            "type": "lineHeights"
           }
         }
       },
@@ -345,15 +408,15 @@
           },
           "border": {
             "sm": {
-              "value": "{app.dimension.control.border.sm}",
+              "value": "{app.dimension.label.border.default}",
               "type": "dimension"
             },
             "md": {
-              "value": "{app.dimension.control.border.md}",
+              "value": "{app.dimension.label.border.default}",
               "type": "dimension"
             },
             "lg": {
-              "value": "{app.dimension.control.border.lg}",
+              "value": "{app.dimension.label.border.default}",
               "type": "dimension"
             }
           },
@@ -392,15 +455,15 @@
         },
         "gap": {
           "sm": {
-            "value": "{component.checkbox.dimension.input.width.sm} / 2",
+            "value": "{component.checkbox.dimension.input.height.sm} * 0.75",
             "type": "dimension"
           },
           "md": {
-            "value": "{component.checkbox.dimension.input.width.md} / 2",
+            "value": "{component.checkbox.dimension.input.height.md} * 0.75",
             "type": "dimension"
           },
           "lg": {
-            "value": "{component.checkbox.dimension.input.width.lg} / 2",
+            "value": "{component.checkbox.dimension.input.height.lg} * 0.75",
             "type": "dimension"
           }
         },
@@ -423,70 +486,9 @@
           }
         }
       },
-      "config": {
-        "input": {
-          "height": {
-            "default": {
-              "value": "{app.dimension.control.height.md} / 2",
-              "type": "other"
-            },
-            "step": {
-              "value": "0.5rem",
-              "type": "other"
-            }
-          },
-          "radius": {
-            "default": {
-              "value": "0rem",
-              "type": "other",
-              "description": "For a circle match height"
-            },
-            "step": {
-              "value": "0rem",
-              "type": "other"
-            }
-          },
-          "width": {
-            "ratio": {
-              "value": "1",
-              "type": "other"
-            }
-          },
-          "symbol": {
-            "scale": {
-              "value": "0.75",
-              "type": "other"
-            }
-          }
-        },
-        "label": {
-          "default": {
-            "value": "{app.fontSize.control.text.sm}",
-            "type": "other"
-          },
-          "step": {
-            "value": "0.0625rem",
-            "type": "other"
-          }
-        }
-      },
-      "typography": {
-        "symbol": {
-          "default": {
-            "value": "{app.typography.control.symbol.default}",
-            "type": "typography"
-          }
-        },
-        "label": {
-          "default": {
-            "value": "{app.typography.control.text.default}",
-            "type": "typography"
-          }
-        }
-      },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.default.md}",
+          "value": "{app.boxShadow.focusRing.md}",
           "type": "boxShadow"
         }
       },
@@ -522,35 +524,50 @@
           }
         }
       },
-      "fontWeight": {
-        "symbol": {
-          "sm": {
-            "value": "{config.fontWeight.heavy}",
-            "type": "fontWeights"
+      "config": {
+        "input": {
+          "height": {
+            "default": {
+              "value": "{app.dimension.label.height.sm}",
+              "type": "other"
+            },
+            "step": {
+              "value": "0.25rem",
+              "type": "other"
+            }
           },
-          "md": {
-            "value": "{config.fontWeight.bold}",
-            "type": "fontWeights"
+          "radius": {
+            "default": {
+              "value": "0.4375rem",
+              "type": "other",
+              "description": "For a circle match height"
+            },
+            "step": {
+              "value": "0.0625rem",
+              "type": "other"
+            }
           },
-          "lg": {
-            "value": "{config.fontWeight.medium}",
-            "type": "fontWeights"
+          "width": {
+            "ratio": {
+              "value": "1",
+              "type": "other"
+            }
+          },
+          "symbol": {
+            "scale": {
+              "value": "0.75",
+              "type": "other"
+            }
           }
-        }
-      },
-      "lineHeight": {
+        },
         "label": {
-          "sm": {
-            "value": "{component.checkbox.fontSize.label.sm} * 1.4",
-            "type": "lineHeights"
+          "default": {
+            "value": "{app.fontSize.control.text.sm}",
+            "type": "other"
           },
-          "md": {
-            "value": "{component.checkbox.fontSize.label.md} * 1.4",
-            "type": "lineHeights"
-          },
-          "lg": {
-            "value": "{component.checkbox.fontSize.label.lg} * 1.4",
-            "type": "lineHeights"
+          "step": {
+            "value": "0.0625rem",
+            "type": "other"
           }
         }
       }

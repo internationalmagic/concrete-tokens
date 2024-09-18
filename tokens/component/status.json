@@ -12,9 +12,9 @@
             "type": "color"
           }
         },
-        "secondary": {
+        "info": {
           "bg": {
-            "value": "{app.color.component.accent.bg.solid}",
+            "value": "{app.color.component.info.bg.solid}",
             "type": "color"
           },
           "border": {
@@ -845,7 +845,7 @@
           },
           "width": {
             "ratio": {
-              "value": "1.5",
+              "value": "1",
               "type": "other",
               "description": "ratio defines the width / 1 = square / 1.5 = rectangle"
             }
