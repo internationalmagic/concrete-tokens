@@ -1599,31 +1599,31 @@
         "accent": {
           "hue": {
             "default": {
-              "value": "50",
+              "value": "8",
               "type": "other"
             }
           },
           "saturation": {
             "default": {
-              "value": "3%",
+              "value": "100%",
               "type": "other"
             },
             "translucent": {
-              "value": "3%",
+              "value": "100%",
               "type": "other"
             }
           },
           "darken": {
             "default": {
-              "value": "0.1",
+              "value": "0.08",
               "type": "other"
             },
             "hover": {
-              "value": "0.1",
+              "value": "0.08",
               "type": "other"
             },
             "active": {
-              "value": "0.2",
+              "value": "0.16",
               "type": "other"
             }
           },
@@ -1634,61 +1634,31 @@
                 "type": "other"
               },
               "hover": {
-                "value": "0.08",
+                "value": "0.12",
                 "type": "other"
               },
               "active": {
-                "value": "0.1",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.04",
+                "value": "0.18",
                 "type": "other"
               }
             },
             "border": {
               "default": {
-                "value": "0.08",
+                "value": "0.2",
                 "type": "other"
               },
               "hover": {
-                "value": "0.12",
+                "value": "0.28",
                 "type": "other"
               },
               "active": {
-                "value": "0.16",
-                "type": "other"
-              },
-              "subtle": {
-                "value": "0.06",
-                "type": "other"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "0.6",
-                "type": "other"
-              },
-              "hover": {
-                "value": "1",
-                "type": "other"
-              },
-              "active": {
-                "value": "1",
+                "value": "0.36",
                 "type": "other"
               }
             }
           },
           "lighten": {
             "default": {
-              "value": "0.8",
-              "type": "other"
-            },
-            "hover": {
-              "value": "0.8",
-              "type": "other"
-            },
-            "active": {
               "value": "0.8",
               "type": "other"
             },
