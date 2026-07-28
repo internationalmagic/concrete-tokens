@@ -1118,67 +1118,62 @@
     "boxShadow": {
       "focusRing": {
         "md": {
-          "value": [
+          "$value": [
             {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.25rem",
               "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
+              "offsetX": "0px",
+              "offsetY": "0px",
+              "blur": "0px",
+              "spread": "0.25rem"
             }
           ],
-          "type": "boxShadow"
+          "$type": "shadow"
         },
         "lg": {
-          "value": [
+          "$value": [
             {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0.375rem",
               "color": "{app.color.component.focus.focusRing.default}",
-              "type": "dropShadow"
+              "offsetX": "0px",
+              "offsetY": "0px",
+              "blur": "0px",
+              "spread": "0.375rem"
             }
           ],
-          "type": "boxShadow"
+          "$type": "shadow"
         }
       },
       "surface": {
         "default": {
-          "value": {
-            "x": "0",
-            "y": "6rem",
-            "blur": "6rem",
-            "spread": "0",
+          "$value": {
             "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
+            "offsetX": "0px",
+            "offsetY": "6rem",
+            "blur": "6rem",
+            "spread": "0px"
           },
-          "type": "boxShadow"
+          "$type": "shadow"
         }
       },
       "component": {
         "high": {
-          "value": {
-            "x": "0",
-            "y": "2rem",
-            "blur": "4rem",
-            "spread": "0",
+          "$value": {
             "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
+            "offsetX": "0px",
+            "offsetY": "2rem",
+            "blur": "4rem",
+            "spread": "0px"
           },
-          "type": "boxShadow"
+          "$type": "shadow"
         },
         "higher": {
-          "value": {
-            "x": "0",
-            "y": "4rem",
-            "blur": "6rem",
-            "spread": "0",
+          "$value": {
             "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
+            "offsetX": "0px",
+            "offsetY": "4rem",
+            "blur": "6rem",
+            "spread": "0px"
           },
-          "type": "boxShadow"
+          "$type": "shadow"
         }
       }
     },

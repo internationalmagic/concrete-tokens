@@ -337,8 +337,8 @@
       },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.lg}",
-          "type": "boxShadow"
+          "$value": "{app.boxShadow.focusRing.lg}",
+          "$type": "shadow"
         }
       },
       "fontSize": {

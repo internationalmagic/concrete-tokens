@@ -447,36 +447,34 @@
       "boxShadow": {
         "handle": {
           "default": {
-            "value": [
+            "$value": [
               {
-                "x": "0",
-                "y": "0.0625rem",
-                "blur": "0.125rem",
-                "spread": "0",
                 "color": "{app.color.component.shadow.strong}",
-                "type": "dropShadow"
+                "offsetX": "0px",
+                "offsetY": "0.0625rem",
+                "blur": "0.125rem",
+                "spread": "0px"
               }
             ],
-            "type": "boxShadow"
+            "$type": "shadow"
           },
           "pressed": {
-            "value": [
+            "$value": [
               {
-                "x": "0",
-                "y": "0.0625rem",
-                "blur": "0.125rem",
-                "spread": "0",
                 "color": "{app.color.component.shadow.strong}",
-                "type": "dropShadow"
+                "offsetX": "0px",
+                "offsetY": "0.0625rem",
+                "blur": "0.125rem",
+                "spread": "0px"
               }
             ],
-            "type": "boxShadow"
+            "$type": "shadow"
           }
         },
         "track": {
           "focusRing": {
-            "value": "{app.boxShadow.focusRing.md}",
-            "type": "boxShadow"
+            "$value": "{app.boxShadow.focusRing.md}",
+            "$type": "shadow"
           }
         }
       },

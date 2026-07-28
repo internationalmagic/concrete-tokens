@@ -470,8 +470,8 @@
       },
       "boxShadow": {
         "focusRing": {
-          "value": "{app.boxShadow.focusRing.md}",
-          "type": "boxShadow"
+          "$value": "{app.boxShadow.focusRing.md}",
+          "$type": "shadow"
         }
       }
     }

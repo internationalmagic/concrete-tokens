@@ -87,12 +87,12 @@
       },
       "boxShadow": {
         "default": {
-          "value": "{app.boxShadow.component.high}",
-          "type": "boxShadow"
+          "$value": "{app.boxShadow.component.high}",
+          "$type": "shadow"
         },
         "higher": {
-          "value": "{app.boxShadow.component.higher}",
-          "type": "boxShadow"
+          "$value": "{app.boxShadow.component.higher}",
+          "$type": "shadow"
         }
       }
     }
